@@ -1,14 +1,14 @@
 package ru.netology.manager;
 
-public class posterManager {
+public class PosterManager {
     private String[] films = new String[0];
     private int limit;
 
-    public posterManager() {
+    public PosterManager() {
         this.limit = 10;
     }
 
-    public posterManager(int limit) {
+    public PosterManager(int limit) {
         this.limit = limit;
     }
 
